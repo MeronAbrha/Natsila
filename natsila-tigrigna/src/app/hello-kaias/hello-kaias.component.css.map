@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAoBA,AAAA,qBAAqB,CAAA;EACjB,MAAM,EAAE,IAAI;EAEZ,WAAW,EAAE,WAAW;EACxB,MAAM,EAAE,CAAC;CAgBZ;;AApBD,AAMI,qBANiB,CAMjB,GAAG,CAAA;EACC,SAAS,EAAE,gDAAkD;EAC7D,gBAAgB,EA3BX,OAAkB;EA4BvB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,EAAE;CAMd;;AAvBD,MAAM,EAAE,SAAS,EAAE,KAAK;EAK5B,AAMI,qBANiB,CAMjB,GAAG,CAAA;IASK,SAAS,EAAE,qCAAsC;GAGxD",
+    "sources": [
+        "hello-kaias.component.scss"
+    ],
+    "names": [],
+    "file": "hello-kaias.component.css"
+}

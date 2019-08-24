@@ -1,0 +1,56 @@
+.container {
+  height: 100%;
+  top: 0;
+  margin: -15px;
+}
+
+.body {
+  bottom: 50px;
+  top: 100px;
+  padding-top: 30px;
+}
+
+.header {
+  background-color: #edf1ed !important;
+  height: 115px;
+}
+
+.header, .body {
+  position: absolute;
+  width: 100%;
+}
+
+.footer {
+  height: 30px;
+  bottom: 0;
+  background-color: #edf1ed;
+  position: fixed;
+  width: 100%;
+}
+
+.page-title {
+  text-align: center;
+  padding-top: 35px;
+  font-size: 55px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #010101;
+}
+
+.center-body {
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+}
+
+.right-body {
+  width: 20%;
+  float: right;
+}
+
+.left-body {
+  width: 20%;
+  float: left;
+}
+/*# sourceMappingURL=global.css.map */

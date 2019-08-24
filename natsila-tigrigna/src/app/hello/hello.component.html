@@ -13,14 +13,17 @@
 
             <div class="center-body"> 
 
-                <div *ngFor ="let url of outputs"> 
-                    <iframe src={{url}} ></iframe>
+                <div *ngFor ="let url of toIframe"> 
+                  just print this
+                  {{url}}
+                    <iframe src= {{url}} ></iframe>
+                    <!-- <iframe  src= {{url}} ></iframe> -->
                     <br><p></p>
                 </div>
                 
 
-              <!-- <iframe  src="https://www.youtube.com/embed/Hj3cpF4xswY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <br> 
+              <iframe  src="https://www.youtube.com/embed/Hj3cpF4xswY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <!-- <br> 
                   <iframe  src="https://www.youtube.com/embed/UFoq1wrNmHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     
                   <br> 

@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HelloComponent } from './hello/hello.component';
+import { HelloKaiasComponent } from './hello-kaias/hello-kaias.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/hello', pathMatch: 'full' },
-  { path: 'hello', component: HelloComponent }
+  { path: '', redirectTo: '/hello-kaias', pathMatch: 'full' },
+  { path: 'hello-kaias', component: HelloKaiasComponent }
 ];
 
 @NgModule({

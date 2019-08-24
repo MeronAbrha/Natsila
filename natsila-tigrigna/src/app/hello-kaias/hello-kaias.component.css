@@ -1,0 +1,23 @@
+hello-kaias-container {
+  height: 100%;
+  font-family: 'monterrat';
+  margin: 0;
+}
+
+hello-kaias-container #bg {
+  -webkit-clip-path: polygon(100% 0, 100% 82%, 45% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 82%, 45% 100%, 0 100%, 0 0);
+  background-color: #b4b4c0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (min-width: 840px) {
+  hello-kaias-container #bg {
+    -webkit-clip-path: polygon(0 0, 75% 0, 55% 100%, 0 100%);
+            clip-path: polygon(0 0, 75% 0, 55% 100%, 0 100%);
+  }
+}
+/*# sourceMappingURL=hello-kaias.component.css.map */

@@ -12,6 +12,8 @@ export class HelloComponent implements OnInit {
   vidId = [];
   vidTitle = [];
   outputs = [];
+  urls = [];
+  toIframe = [];
   constructor(
     private _dataservice : DataService
   ){}
@@ -25,7 +27,13 @@ export class HelloComponent implements OnInit {
         
           this.vidTitle.push( this.items[i].snippet.title);
           this.vidId.push(this.items[i].snippet.resourceId.videoId);
-          this.outputs.push( '<li><iframe src=\"//www.youtube.com/embed/' + this.items[i].snippet.resourceId.videoId + '\></frame></li>');
+          this.outputs.push( 'www.youtube.com/embed/' + this.items[i].snippet.resourceId.videoId);
+      
+          this.toIframe.push( '"www.youtube.com/embed/' + this.items[i].snippet.resourceId.videoId + '"');
+
+          //this.urls.push( this.items[i].snippet.resourceId.videoId);
+          //this.urls.push( '<li><iframe src="www.youtube.com/embed/" + this.items[i].snippet.resourceId.videoId ></frame></li>"');
+          console.log(this.outputs.pop());
       }
     });
   }
